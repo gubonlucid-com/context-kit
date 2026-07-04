@@ -1,6 +1,6 @@
 # I ran my life on a fleet of AI agents for 6 months. Here's the operating system.
 
-*Published on AgentTree Hub · By JD Davenport*
+*Published on AgentTree Hub · By JD Davenport · [Read on AgentTree Hub](https://docs.agenttree.army/articles/personal-ai-os)*
 
 ---
 
