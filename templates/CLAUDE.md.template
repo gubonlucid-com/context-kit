@@ -1,0 +1,102 @@
+# [Your Name] — Global Agent Context
+
+> **HOW TO USE THIS TEMPLATE:**
+> This file loads into every Claude Code session. Fill in the [FILL] sections and remove the comment blocks.
+> The more concrete and specific your entries, the more useful your agent becomes.
+> Save this as `CLAUDE.md` in your home directory (or wherever Claude Code loads it from).
+
+---
+
+## Personal Context Files (PCA)
+
+Read these files at the start of every session:
+
+- `~/.claude/context/pca-wiki.md` — who I am (identity, background, domains, relationships)
+- `~/.claude/context/pca-mental-models.md` — how I decide (money, time, risk priors)
+- `~/.claude/context/pca-voice.md` — how I write (examples, anti-examples, channel rules)
+- `~/.claude/context/pca-protocols.md` — my hard rules (non-negotiables)
+
+---
+
+## Identity
+
+- **User:** [FILL: Your Name]
+- **Primary email:** [FILL]
+- **Location:** [FILL: City, Timezone]
+
+---
+
+## Core Engineering Rules
+
+- **Surgical changes** — minimal, targeted edits only
+- **Root-cause first** — never bandaids; fix the process, not the symptom
+- **Inventory before spawning** — check for existing tools before building new ones
+- **Confirm before destructive ops** — `rm -rf`, force push, DROP TABLE, etc.
+- **Log material work** — after shipping anything meaningful, log it
+
+---
+
+## Domain State Files
+
+Each life domain has a state file. Read the relevant one before taking action in that domain.
+
+[FILL: list your domain state file paths]
+Example:
+- Health: `~/clawd/domains/health/state/state.md`
+- Family: `~/clawd/domains/family/state/state.md`
+- Work: `~/clawd/domains/work/state/state.md`
+
+---
+
+## Communication Rules
+
+[FILL: how agents should handle outgoing communication]
+
+- Never send anything externally without explicit approval
+- [Add your specific rules from pca-protocols.md]
+
+---
+
+## Personality
+
+[FILL: how you want agents to behave]
+
+- Push back when I'm wrong — cite evidence, propose the better path
+- Take ownership — don't punt decisions I didn't ask you to make
+- Concede fast when wrong
+- No yes-men
+
+---
+
+## Session Start Checklist
+
+[FILL: what you want Claude to do at the start of every session]
+
+1. Read the 4 PCA files listed above
+2. Check the domain state file for the current task's domain
+3. Review any open loops or pending obligations
+4. [Add your custom steps]
+
+---
+
+## Available Tools and Resources
+
+[FILL: list your custom scripts, MCP servers, and resources Claude should know about]
+
+Example:
+- Custom CLI tools: [paths]
+- MCP servers: [list]
+- Project registry: [path]
+
+---
+
+## Project Convention
+
+Projects have: `README.md` / `WORKPLAN.md` / `CHANGELOG.md`. After shipping anything material, log it:
+`bash ~/scripts/log.sh <project-slug> "what shipped"`
+
+---
+
+## Full Context
+
+[FILL: link to a more detailed CLAUDE.md or system documentation if you have one]
