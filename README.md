@@ -80,7 +80,7 @@ Skills are Claude Code slash commands. Install them, then invoke with `/skill-na
 | Tier | What you get | Price |
 |---|---|---|
 | **Free** | All 4 PCA templates + CLAUDE.md scaffold | Free (this repo) |
-| **Skills Pack** | All 5 skills + advanced templates + updates | $39 ([Gumroad](https://gumroad.com/l/context-kit)) |
+| **Skills Pack** | All 5 skills + advanced templates + updates | $39 ([Buy now →](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e)) |
 | **Course** | "Build your personal AI OS" — recorded walkthrough + Q&A | $149 (pre-order) |
 | **Sponsorware** | Early access to new skills + private build log | $10/mo |
 
