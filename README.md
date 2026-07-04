@@ -4,6 +4,8 @@
 
 **Context Kit** is a collection of templates, skills, and conventions that transform Claude Code from a generic assistant into a system that deeply knows you.
 
+**[Read the essay: I ran my life on a fleet of AI agents for 6 months →](https://docs.agenttree.army/articles/personal-ai-os/)**
+
 ## What's included
 
 ```
