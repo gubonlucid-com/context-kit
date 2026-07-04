@@ -1,10 +1,21 @@
 # Context Kit — Your Personal AI Operating System
 
+[![GitHub stars](https://img.shields.io/github/stars/JDDavenport/context-kit?style=social)](https://github.com/JDDavenport/context-kit/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet)](https://claude.ai/code)
+
 > The thing every commercial AI assistant lacks — deep, longitudinal, structured personal context — packaged so anyone running Claude Code can install it in an afternoon.
 
-**Context Kit** is a collection of templates, skills, and conventions that transform Claude Code from a generic assistant into a system that deeply knows you.
+**Context Kit** is a collection of templates, skills, and conventions that transform Claude Code from a generic assistant into a system that deeply knows you. 4 PCA templates + 5 skills. Free and open-source.
+
+```bash
+# One-command install
+bash <(curl -fsSL https://raw.githubusercontent.com/JDDavenport/context-kit/main/scripts/install.sh)
+```
 
 **[Read the essay: I ran my life on a fleet of AI agents for 6 months →](https://docs.agenttree.army/articles/personal-ai-os/)**
+
+---
 
 ## What's included
 
@@ -25,14 +36,17 @@ skills/
   session-digest.md     — end-of-session summary that feeds the next session
 ```
 
+---
+
 ## Install (2 minutes)
 
 ```bash
-# Clone the repo
+# Option A — one-liner (recommended)
+bash <(curl -fsSL https://raw.githubusercontent.com/JDDavenport/context-kit/main/scripts/install.sh)
+
+# Option B — clone and run
 git clone https://github.com/JDDavenport/context-kit.git
 cd context-kit
-
-# Run the installer (copies templates + installs skills)
 bash scripts/install.sh
 ```
 
@@ -41,9 +55,11 @@ The installer:
 2. Installs skills to `~/.claude/skills/`
 3. Prints next steps for filling in your templates
 
+---
+
 ## The 4 PCA Files
 
-Personal Context Artifacts (PCAs) are the core of the system. They answer 4 questions:
+Personal Context Artifacts (PCAs) answer 4 questions every AI agent needs to do its job well:
 
 | File | Question | What goes in it |
 |---|---|---|
@@ -52,7 +68,7 @@ Personal Context Artifacts (PCAs) are the core of the system. They answer 4 ques
 | `pca-voice.md` | How do I write? | Writing examples, anti-examples, channel-specific rules |
 | `pca-protocols.md` | What are my hard rules? | Non-negotiables that agents must never violate |
 
-Once filled in, you reference them in your CLAUDE.md so every Claude session loads them:
+Once filled in, reference them in your CLAUDE.md so every Claude session loads them:
 
 ```markdown
 ## Personal Context
@@ -62,6 +78,10 @@ Read these files at session start:
 - `~/.claude/context/pca-voice.md` — how I write
 - `~/.claude/context/pca-protocols.md` — my hard rules
 ```
+
+You start context-full, not context-zero.
+
+---
 
 ## The 5 Skills
 
@@ -75,27 +95,49 @@ Skills are Claude Code slash commands. Install them, then invoke with `/skill-na
 | Morning Briefing | `/morning-briefing` | Generates a grounded morning status from your state files |
 | Session Digest | `/session-digest` | End-of-session summary that primes the next session |
 
+---
+
 ## Pricing
+
+The templates and this README are free. The skills pack adds 5 working slash commands + advanced templates.
 
 | Tier | What you get | Price |
 |---|---|---|
 | **Free** | All 4 PCA templates + CLAUDE.md scaffold | Free (this repo) |
-| **Skills Pack** | All 5 skills + advanced templates + updates | $39 ([Buy now →](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e)) |
+| **Skills Pack** | All 5 skills + advanced templates + updates | [$39 →](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e) |
 | **Course** | "Build your personal AI OS" — recorded walkthrough + Q&A | $149 (pre-order) |
 | **Sponsorware** | Early access to new skills + private build log | $10/mo |
 
+---
+
 ## Who this is for
 
-You're already running Claude Code. You've gotten it to do impressive things. But every session you're re-explaining yourself — your goals, your constraints, your voice, your context. The commercial alternatives (Lindy, Martin, the OpenAI agents) are building the same thing but they keep the context locked in their walled garden.
+You're already running Claude Code. You've gotten it to do impressive things. But every session you're re-explaining yourself — your goals, your constraints, your voice, your context.
 
-This is the methodology to build it yourself, on your own infrastructure, with real receipts.
+The commercial alternatives (Lindy, Claude.ai, the OpenAI agents) are building the same thing but they keep the context locked in their walled garden. Switch providers — start over.
 
-## Built from receipts
-
-This system was extracted from 6 months of running a real agent fleet for a real person's life and work (133 projects, 28 agents, 203 automation scripts, 47+ cron jobs). Not a thought experiment — a distillation of what actually worked.
-
-The moat isn't the templates. It's the operational history they encode.
+These are Markdown files. They're yours. They work with any model, any tool, forever.
 
 ---
 
-Built by JD Davenport · [jddavenport.com](https://jddavenport.com) · [AgentTree Hub](https://agenttree.ai)
+## Built from receipts
+
+This system was extracted from 6 months of running a real agent fleet:
+- **133 projects** managed by AI agents
+- **28 domain agents** covering health, family, work, school, investing, consulting
+- **47+ cron jobs** — autonomous, recurring work
+- **203 automation scripts**
+
+Not a thought experiment. A distillation of what actually worked.
+
+---
+
+## Contributing
+
+Open a [Discussion](https://github.com/JDDavenport/context-kit/discussions) to share your PCA setup, suggest new skills, or ask questions.
+
+If Context Kit is useful to you, a star helps others find it.
+
+---
+
+Built by JD Davenport · [Essay](https://docs.agenttree.army/articles/personal-ai-os/) · [AgentTree Hub](https://agenttree.ai)
