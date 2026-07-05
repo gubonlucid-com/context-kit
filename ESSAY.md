@@ -122,11 +122,13 @@ The context isn't a product you buy. It's a system you build. The templates are 
 
 ## Get started
 
-The templates and skills are open source: **[github.com/JDDavenport/context-kit](https://github.com/JDDavenport/context-kit)**
+The templates and skills are open source and free: **[github.com/JDDavenport/context-kit](https://github.com/JDDavenport/context-kit)**
 
 Clone the repo and run `bash scripts/install.sh` to copy everything to the right places. Then spend an afternoon filling in your four PCA files.
 
-The skills pack (5 advanced skills, updates, private build log) is $39 at Gumroad.
+**If this saves you an hour a week, consider giving it a ⭐ star on GitHub** — it helps other Claude Code practitioners find it.
+
+A curated **setup pack** (step-by-step configuration guide, advanced PCA examples, 30-day email support) is $39: [buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e)
 
 The course — "Build your personal AI OS" — is taking pre-orders at $149. If 10 people pre-order, I'll record it.
 
