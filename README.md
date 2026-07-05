@@ -59,6 +59,27 @@ The installer:
 
 ---
 
+## MCP Server (Claude Desktop + any MCP client)
+
+Context Kit includes a zero-dependency MCP server that exposes your PCA files as resources to any MCP-compatible AI client.
+
+Add to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "context-kit": {
+      "command": "python3",
+      "args": ["/path/to/context-kit/mcp_server.py"]
+    }
+  }
+}
+```
+
+Your PCA files then appear as resources in Claude Desktop (and any other MCP client) — accessible without Claude Code.
+
+---
+
 ## The 4 PCA Files
 
 Personal Context Artifacts (PCAs) answer 4 questions every AI agent needs to do its job well:
