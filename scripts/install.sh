@@ -100,4 +100,9 @@ if [ "$DRY_RUN" -eq 0 ]; then
   echo ""
   echo "  See README.md for full documentation."
   echo ""
+  echo "  ---"
+  echo "  If Context Kit saves you time, a GitHub star helps others find it:"
+  echo "  https://github.com/JDDavenport/context-kit"
+  echo "  ---"
+  echo ""
 fi
