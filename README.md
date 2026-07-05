@@ -4,16 +4,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet)](https://claude.ai/code)
 
-> The thing every commercial AI assistant lacks — deep, longitudinal, structured personal context — packaged so anyone running Claude Code can install it in an afternoon.
+> Stop re-explaining yourself to AI every single session. 4 Markdown files that give Claude permanent personal context — who you are, how you decide, how you write, and your non-negotiables.
 
-**Context Kit** is a collection of templates, skills, and conventions that transform Claude Code from a generic assistant into a system that deeply knows you. 4 PCA templates + 5 skills. Free and open-source.
+**Context Kit** gives Claude Code a persistent mental model of you. 4 PCA templates + 5 skills. 100% free and open-source.
 
 ```bash
-# One-command install
+# Install in 60 seconds
 bash <(curl -fsSL https://raw.githubusercontent.com/JDDavenport/context-kit/main/scripts/install.sh)
 ```
 
 **[Read the essay: I ran my life on a fleet of AI agents for 6 months →](https://docs.agenttree.army/articles/personal-ai-os/)**
+
+> **If this saves you time, a ⭐ star helps others find it.** → [Star on GitHub](https://github.com/JDDavenport/context-kit)
 
 ---
 
@@ -99,12 +101,12 @@ Skills are Claude Code slash commands. Install them, then invoke with `/skill-na
 
 ## Pricing
 
-The templates and this README are free. The skills pack adds 5 working slash commands + advanced templates.
+All templates and skills in this repo are free and MIT-licensed. The paid tier adds a curated setup guide, advanced examples, and priority support.
 
 | Tier | What you get | Price |
 |---|---|---|
-| **Free** | All 4 PCA templates + CLAUDE.md scaffold | Free (this repo) |
-| **Skills Pack** | All 5 skills + advanced templates + updates | [$39 →](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e) |
+| **Free** | All 4 PCA templates + 5 skills + CLAUDE.md scaffold — everything in this repo | Free |
+| **Setup Pack** | Step-by-step setup guide + advanced PCA examples + 30-day email support | [$39 →](https://buy.stripe.com/3cI7sL9SfbUsa1fe1RdIA0e) |
 | **Course** | "Build your personal AI OS" — recorded walkthrough + Q&A | $149 (pre-order) |
 | **Sponsorware** | Early access to new skills + private build log | $10/mo |
 
@@ -117,6 +119,9 @@ You're already running Claude Code. You've gotten it to do impressive things. Bu
 The commercial alternatives (Lindy, Claude.ai, the OpenAI agents) are building the same thing but they keep the context locked in their walled garden. Switch providers — start over.
 
 These are Markdown files. They're yours. They work with any model, any tool, forever.
+
+**Before Context Kit:** Claude asks "what's the context here?" on every session.
+**After Context Kit:** Claude opens already knowing your goals, constraints, voice, and rules.
 
 ---
 
@@ -136,7 +141,7 @@ Not a thought experiment. A distillation of what actually worked.
 
 Open a [Discussion](https://github.com/JDDavenport/context-kit/discussions) to share your PCA setup, suggest new skills, or ask questions.
 
-If Context Kit is useful to you, a star helps others find it.
+Found this useful? **[⭐ Star this repo](https://github.com/JDDavenport/context-kit)** — it helps other Claude Code users find it.
 
 ---
 
