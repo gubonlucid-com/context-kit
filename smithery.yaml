@@ -1,0 +1,17 @@
+# Smithery MCP marketplace configuration
+# Submit at: https://smithery.ai
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      contextDir:
+        type: string
+        description: Path to your PCA context files directory (default uses ~/.claude/context)
+        default: ''
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: 'python3',
+      args: ['mcp_server.py']
+    })
